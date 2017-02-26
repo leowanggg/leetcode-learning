@@ -5,6 +5,8 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
+        if len(nums) <= 1:
+            return FALSE
         for i in xrange(len(nums)):
             print i
             temp = target - nums[i]
