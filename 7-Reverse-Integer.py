@@ -14,6 +14,6 @@ class Solution(object):
             _x = -1 * int(xs)
         elif x == 0:
             _x = 0
-        if _x > 2147483647 or _x < -2147483647:
+        if _x > 2147483647 or _x < -2147483648:
             _x = 0
         return _x
